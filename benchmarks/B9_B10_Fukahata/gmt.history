@@ -1,4 +1,0 @@
-# GMT 5 Session common arguments shelf
-BEGIN GMT 5.4.2
-R	W_30.grd
-END

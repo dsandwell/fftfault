@@ -1,4 +1,0 @@
-# dx  sig fault_orient  itermx shear_grid (note slip is in mm)
-  .5 0.5 90 20 rmu4.grd
-1024.00 1024.00 -10.  16.0 1.00   0.00   0.00
-1024.00 1024.00  16.0 42.0 1.00   0.00   0.00

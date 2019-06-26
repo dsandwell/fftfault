@@ -1,1 +1,0 @@
-../B1_B4_2D/grdinfo2.m
