@@ -1,0 +1,10 @@
+#	Makefile for test_rw
+
+FFT     = ../../lib/libfftfault.a
+FFLAGS= -O3  -Bstatic -m64 
+FC = gfortran
+
+test_rw:		test_rw.o	
+	$(FC)  $(FFLAGS) test_rw.o \
+		$(FFT) -L$(NETCDFHOME)/lib -lnetcdf -L$(GMTHOME)/lib -lgmt -o ../../bin/test_rw
+	rm *.o

@@ -1,0 +1,8 @@
+# GMT 5 Session common arguments shelf
+BEGIN GMT 5.4.2
+B	20+lelastic thickness (km)
+J	m
+Jm	m1.5
+R	-125/-114/32/40
+L	5
+END

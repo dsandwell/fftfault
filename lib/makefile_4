@@ -1,0 +1,16 @@
+#
+# creates fftfault library from C and fortran code
+#
+INC = -I/opt/local/lib/gmt4/include -I$(NETCDFHOME)/include
+CFLAGS = $(INC)  -O2 -m64
+FFLAGS =  -O3 -m64
+FC = gfortran
+#
+OBJECTS=	boussinesq.o 	boussinesql.o	coefl.o		fourt.o\
+		fplate.o	readgrd_4.o       writegrd_4.o 	element.o\
+		coefan.o	fterm.o		fvisco.o	coulomb.o
+liba:	$(OBJECTS)
+	ar rv libfftfault.a $(OBJECTS)
+	rm *.o
+	chmod 644 libfftfault.a
+	ranlib libfftfault.a

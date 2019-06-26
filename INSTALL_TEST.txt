@@ -1,0 +1,35 @@
+********************************************************
+Instructions on how to install and test this code.
+David Sandwell December 22, 2017
+********************************************************
+
+01 Install GMT5 and note the localtion of the library and include
+   files.  
+
+02 Go into the lib directory, change the makefile for the appropriate
+   path, and build the library.
+   % make
+
+03 Go to the src/test_rw directory and make this test code for reading 
+   and writing the grd-files
+   % cd src/test_rw
+   % make
+   % run_test_rw.csh - the diff.grd should be all zeros
+
+04 Go to src/point and make the code
+   % cd src/point
+   % make
+
+05 Go to src/maxwell and make the code
+   % cd src/maxwell
+   % make
+
+06 Go to test_maxwell_point and test these two programs
+   % run_point_test.csh
+   % run_maxwell_test.csh
+   % run_maxwell_v_test.csh
+
+07 Go to tests and run all the test cases in the publication
+   Maxwell: A Semi-analytic 4-D Code for Earthquake Cycle Modeling of i
+            Transform Fault Systems
+   

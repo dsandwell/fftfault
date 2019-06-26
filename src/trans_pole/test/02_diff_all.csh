@@ -1,0 +1,12 @@
+diff  coastll.dat old/coastll.dat
+diff  coastll_trans.dat old/coastll_trans.dat
+diff  coastll_trans_trans.dat old/coastll_trans_trans.dat
+diff  coastll_trans_trans2.dat old/coastll_trans_trans2.dat
+diff  hector.dat old/hector.dat
+diff  hector_trans.dat old/hector_trans.dat
+diff  hector_trans_trans.dat old/hector_trans_trans.dat
+diff  hector_trans_trans2.dat old/hector_trans_trans2.dat
+diff  scec_trans.dat old/scec_trans.dat
+diff  scec_trans_trans.dat old/scec_trans_trans.dat
+diff  scec_trans_trans2.dat old/scec_trans_trans2.dat
+diff  scecv3_gps.dat old/scecv3_gps.dat

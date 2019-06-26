@@ -1,0 +1,4 @@
+# dx  sig fault_orient  itermx shear_grid (note slip is in mm)
+  .5 .5 90 0 dummy.grd
+1023.75 1023.75 -10.  16.0 1.00   0.00   0.00
+1023.75 1023.75  16.0 42.0 1.00   0.00   0.00

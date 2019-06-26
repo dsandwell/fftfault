@@ -1,0 +1,10 @@
+#	Makefile for point
+
+FFT     = ../../lib/libfftfault.a
+FFLAGS= -O3  -Bstatic -m64
+FC = gfortran
+
+point:		point.o	
+	$(FC)  $(FFLAGS) point.o \
+		$(FFT) -L/opt/local/lib/gmt4/lib -lgmt -L$(NETCDFHOME)/lib -lnetcdf -o ../../bin/point
+	rm *.o
