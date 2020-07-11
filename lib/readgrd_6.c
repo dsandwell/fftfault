@@ -11,6 +11,7 @@
 *   Revised for GMT4.2 May 10, 2007      - David Sandwell               *
 *   Revised for GMT5.x March 20, 2013    - Paul Wessel                  *
 *   Revised for GMT5.3 November 1, 2016  - David Sandwell               *
+*   Revised for GMT6.1 July 11, 2020     - David Sandwell               *
 ************************************************************************/
 
 # include "gmt.h"
