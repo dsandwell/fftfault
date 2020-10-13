@@ -564,7 +564,8 @@ c
       cfkx=dfkx(j,i)
       cfky=dfky(j,i)
       cfkz=cmplx(0.,0.)
-      call fvisco(kx,ky,thk,d1,0.0,zobs,An,rla,rmu,namx,
+      zero=0.0
+      call fvisco(kx,ky,thk,d1,zero,zobs,An,rla,rmu,namx,
      +                                  cfkx,cfky,cfkz,
      +                                    cuk,cvk,cwk)
       uk(j,i)=uk0(j,i)+rmu1*cuk/(ni*nj)
