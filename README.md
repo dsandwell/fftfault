@@ -12,9 +12,10 @@ RREFERENCES:
     model for time-dependent analysis of the earthquake cycle, 
     J. Geophys. Res., v. 109, B12401, 2004.
 
-    Sandwell, D. and B. Smith-Konter, Maxwell: A Semi-analytic 4-D Code 
-    for Earthquake Cycle Modeling of Transform Fault Systems, Submitted to:
-    Computers and Geosciences, August, 2017.
+    Sandwell, D. and B. Smith-Konter, 2018. Maxwell: A Semi-analytic 4-D Code 
+    for Earthquake Cycle Modeling of Transform Fault Systems, 
+    Computers & Geosciences, 114, pp.84-97.
+    
 ***************************************************************
 INSTALLATION:
 Get the complete tar distribution with test cases at:
