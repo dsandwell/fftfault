@@ -25,7 +25,7 @@ or use this GITHUB repository https://github.com/dsandwell/fftfault
 After unpacking the tar file one should compile and test the code.  
 Instructions are provided in INSTALL_TEST.txt. You will need C and Fortran compilers.  Also the reading and writing 
 of grid files uses the GMT library.  There are two FORTRAN callable 
-subroutines lib/readgrd.c and lib/writegrd.c with versions for GMT5 and GMT4. You may need to modify all the makefiles to have the correct paths to the 
+subroutines lib/readgrd.c and lib/writegrd.c with versions for GMT6, GMT5 and GMT4. You may need to modify all the makefiles to have the correct paths to the 
 GMT distribution.  Also you could replace these routines with your favorite 
 grid file format. After running the test  one can redo all the benchmarks provided 
 in this manuscript although  you will need Matlab and GMT5 to make all the figures.
