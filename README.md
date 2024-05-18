@@ -19,7 +19,7 @@ RREFERENCES:
 ***************************************************************
 INSTALLATION:
 Get the complete tar distribution with test cases at:
-http://topex.ucsd.edu/body_force/viscoelastic/maxwellV2.2.tar
+http://topex.ucsd.edu/body_force/viscoelastic/maxwellV2.4.tar
 or use this GITHUB repository https://github.com/dsandwell/fftfault
 
 After unpacking the tar file one should compile and test the code.  
